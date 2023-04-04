@@ -9,11 +9,21 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+
+app.UseRouting()
+    .UseEndpoints(endpoints =>)
+    .UseStaticFiles();
+
 app.UseRouting();
+
 app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-    name: "default",
-pattern:  "{controller=House}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "KOMAL",
+    pattern: "{controller=Home}/{action=Index}/{id}")
+
 app.Run();
