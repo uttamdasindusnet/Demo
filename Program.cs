@@ -28,4 +28,6 @@ app.MapControllerRoute(
     pattern: "{controller=komal}/{action=Index}/{id}") // changed by komal 16:47
 
 app.Run();
+// komal changed in the program.cs 
+
 
