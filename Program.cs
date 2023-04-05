@@ -24,6 +24,6 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "KOMAL",
-    pattern: "{controller=komal}/{action=Index}/{id}") // changed by komal 16:47
-
+    pattern: "{controller=komal}/{action=Index}/{id}") // changed by uttam789900
+// changed by uttam789900
 app.Run();
