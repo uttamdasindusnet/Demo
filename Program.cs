@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews();//komal678
 var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
